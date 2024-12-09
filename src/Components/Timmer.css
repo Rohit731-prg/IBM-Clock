@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timmer-container {
+    width: 40vw;
+    height: 255px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    background-color: #acacac;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+h4 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+}
+.milli {
+    font-size: 15px;
+}
+.btns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btns button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+    font-weight: 600;
+}
