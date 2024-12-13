@@ -15,9 +15,9 @@ function Timmer({isDark}) {
       setMilli((prevMilli) => {
         if (prevMilli === 90) {
           setSec((prevSec) => {
-            if (prevSec === 59) {
+            if (prevSec === 60) {
               setMin((prevMin) => {
-                if (prevMin === 59) {
+                if (prevMin === 60) {
                   setHour((prevHour) => prevHour + 1);
                   return 0;
                 }

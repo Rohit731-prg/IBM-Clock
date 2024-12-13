@@ -16,7 +16,7 @@ function Alarm({ isDark }) {
     const alarmHour = m === "PM" && hour < 12 ? parseInt(hour) + 12 : parseInt(hour);
     if (m === "AM" && hour === 12) currentHour -= 12;
 
-    if (alarmHour === currentHour && parseInt(min) === currentMinute) {
+    if (alarmHour === currentHour && parseInt(min) === currentMinute) {      
       alert("Alarm is ringing...");
       clearInterval(intervalRef.current);
       intervalRef.current = null;
